@@ -1,0 +1,7 @@
+A = {1, 2, 3, 4}
+B = {1, 2}
+
+if A.issuperset(B):
+    print("A is a superset of B")
+else:
+    print("A is not a superset of B")

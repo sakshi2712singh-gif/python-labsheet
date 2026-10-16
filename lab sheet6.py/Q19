@@ -1,0 +1,14 @@
+from itertools import combinations
+
+s = {1, 2, 3}
+power_set = set()
+
+items = list(s)
+
+for r in range(len(items) + 1):
+    for combo in combinations(items, r):
+        power_set.add(frozenset(combo))
+
+print("Power Set:")
+for subset in power_set:
+    print(set(subset))

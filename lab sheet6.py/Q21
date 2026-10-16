@@ -1,0 +1,6 @@
+numbers = [1, 2, 2, 3, 4, 4, 5]
+
+distinct = set(numbers)
+
+print("Distinct elements:", distinct)
+print("Count:", len(distinct))

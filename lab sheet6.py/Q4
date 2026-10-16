@@ -1,0 +1,4 @@
+s = {10, 20, 30}
+s.update([40, 50, 60])
+
+print("Updated set:", s)

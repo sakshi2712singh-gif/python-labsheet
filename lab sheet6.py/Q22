@@ -1,0 +1,11 @@
+numbers = [1, 2, 3, 2, 4, 3, 5]
+seen = set()
+duplicates = set()
+
+for n in numbers:
+    if n in seen:
+        duplicates.add(n)
+    else:
+        seen.add(n)
+
+print("Duplicate elements:", duplicates)

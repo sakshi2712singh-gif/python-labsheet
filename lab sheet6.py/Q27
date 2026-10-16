@@ -1,0 +1,11 @@
+s1 = input("Enter first string: ").lower().replace(" ", "")
+s2 = input("Enter second string: ").lower().replace(" ", "")
+
+if set(s1) == set(s2) and len(s1) == len(s2):
+    # Check frequency of every character
+    if all(s1.count(ch) == s2.count(ch) for ch in set(s1)):
+        print("Strings are anagrams")
+    else:
+        print("Strings are not anagrams")
+else:
+    print("Strings are not anagrams")

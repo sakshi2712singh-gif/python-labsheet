@@ -1,0 +1,7 @@
+A = {1, 2}
+B = {1, 2, 3, 4}
+
+if A.issubset(B):
+    print("A is a subset of B")
+else:
+    print("A is not a subset of B")
